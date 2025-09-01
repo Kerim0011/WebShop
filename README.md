@@ -1,65 +1,70 @@
-Mini WebShop
+Mini WebShop 🛒
 
-A simple PHP & MySQL-based e-commerce web application featuring user registration, login, shopping cart, checkout, and an admin panel for product management.
 
-Features
-For Regular Users
 
-Browse products
+
+
+
+A simple e-commerce web application built with PHP, MySQL, and HTML/CSS, featuring a user shopping experience and an admin panel for product management.
+
+🚀 Features
+User
+
+Browse products with images, price, and description
 
 Add products to a shopping cart
 
 Remove items from cart
 
-Checkout and place orders
+Checkout and view order confirmation
 
 User registration and login system
 
-For Admin
+Admin
 
-Add, edit, and delete products
+Admin panel to add, edit, and delete products
 
-Admin panel with simplified navigation
+View all products in a table with images and prices
 
-View all products in a table with images, price, and actions
+Only admin users can access admin features
 
-Technologies Used
+🛠 Tech Stack
 
-PHP
+PHP (server-side)
 
-MySQL
+MySQL (database)
 
-HTML, CSS
-
-JavaScript
+HTML, CSS, JavaScript
 
 XAMPP (for local development)
 
-Installation
+⚡ Installation
 
 Clone the repository:
 
 git clone https://github.com/Kerim0011/WebShop.git
 
 
-Copy the project to your local web server folder (e.g., C:/xampp/htdocs/WebShop)
+Move the project to your web server folder (e.g., C:/xampp/htdocs/WebShop)
 
-Import database.sql into your MySQL database.
+Import database.sql into your MySQL database
 
-Update includes/db.php with your MySQL credentials.
+Update includes/db.php with your database credentials
 
-Open your browser and go to http://localhost/WebShop/.
+Open your browser and go to:
 
-Admin Access
+http://localhost/WebShop/
+
+🔑 Admin Access
 
 Admin panel: http://localhost/WebShop/admin/
 
-Only users with role admin can access it.
+Only users with role admin can access this panel
 
-Notes
+💡 Notes
 
-Passwords are hashed using PHP's password_hash() function.
+Passwords are hashed with password_hash()
 
-Cart uses PHP sessions to track items.
+Cart is stored in PHP sessions
 
-Checkout will insert orders and order items into the database.
+Checkout creates orders and order items in the database
